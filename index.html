@@ -47,6 +47,8 @@
         /* ── TYPOGRAPHY ── */
         .display { font-family: 'DM Serif Display', serif; line-height: 1.08; }
         .serif-italic { font-family: 'Cormorant Garamond', serif; font-style: italic; }
+
+        /* ── TYPOGRAPHY LABEL (for footer h4s etc) ── */
         .label {
             font-size: 0.65rem; letter-spacing: 0.18em; text-transform: uppercase;
             font-weight: 600; font-family: 'DM Sans', sans-serif;
@@ -160,8 +162,16 @@
         .field::placeholder { color: #A8A29E; }
 
         /* ── SECTION LABEL ── */
-        .sec-label { display: inline-flex; align-items: center; gap: 10px; color: var(--red); margin-bottom: 16px; }
-        .sec-label span { height: 1px; width: 28px; background: var(--red); display: block; }
+        .sec-label {
+            display: inline-flex; align-items: center; gap: 10px;
+            color: var(--red); margin-bottom: 16px;
+            font-size: 0.65rem; letter-spacing: 0.18em; text-transform: uppercase;
+            font-weight: 600; font-family: 'DM Sans', sans-serif;
+        }
+        .sec-label .line {
+            height: 1px; width: 28px; background: currentColor;
+            display: block; flex-shrink: 0;
+        }
 
         /* ── FOOTER ── */
         footer { background: var(--charcoal); }
@@ -406,8 +416,9 @@
             <!-- Content -->
             <div>
                 <div class="reveal sec-label">
-                    <span></span>
-                    <span class="label">About Us</span>
+                    <span class="line"></span>
+                    About Us
+                    <span class="line"></span>
                 </div>
                 <h2 class="reveal d1 display text-4xl md:text-5xl text-[var(--charcoal)] leading-tight mb-6">
                     Building Confident<br>
@@ -457,7 +468,7 @@
     <div class="max-w-7xl mx-auto px-5 sm:px-8">
         <div class="text-center mb-14">
             <div class="reveal sec-label justify-center">
-                <span></span><span class="label">Our Courses</span><span></span>
+                <span class="line"></span>Our Courses<span class="line"></span>
             </div>
             <h2 class="reveal d1 display text-4xl md:text-5xl text-[var(--charcoal)] mb-4">
                 What We <em class="text-[var(--red)]">Teach</em>
@@ -579,7 +590,7 @@
 
     <div class="max-w-7xl mx-auto px-5 sm:px-8 relative">
         <div class="text-center mb-14">
-            <div class="reveal sec-label justify-center"><span></span><span class="label">Why Choose Us</span><span></span></div>
+            <div class="reveal sec-label justify-center"><span class="line"></span>Why Choose Us<span class="line"></span></div>
             <h2 class="reveal d1 display text-4xl md:text-5xl text-[var(--charcoal)] mb-4">
                 What Makes Us <em class="text-[var(--red)]">Different</em>
             </h2>
@@ -645,7 +656,7 @@
     <div class="relative max-w-7xl mx-auto px-5 sm:px-8">
         <div class="text-center mb-14">
             <div class="reveal sec-label justify-center" style="color:#E8A88A">
-                <span style="background:#E8A88A"></span><span class="label" style="color:#E8A88A">Testimonials</span><span style="background:#E8A88A"></span>
+                <span class="line" style="background:#E8A88A"></span>Testimonials<span class="line" style="background:#E8A88A"></span>
             </div>
             <h2 class="reveal d1 display text-4xl md:text-5xl text-white mb-4">
                 What Families <em class="text-[var(--red)]">Say</em>
@@ -728,7 +739,7 @@
 <section id="contact" class="py-20 md:py-28 bg-[var(--cream)]">
     <div class="max-w-7xl mx-auto px-5 sm:px-8">
         <div class="text-center mb-14">
-            <div class="reveal sec-label justify-center"><span></span><span class="label">Get In Touch</span><span></span></div>
+            <div class="reveal sec-label justify-center"><span class="line"></span>Get In Touch<span class="line"></span></div>
             <h2 class="reveal d1 display text-4xl md:text-5xl text-[var(--charcoal)] mb-4">
                 Start Your <em class="text-[var(--red)]">Journey</em>
             </h2>
