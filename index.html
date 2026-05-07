@@ -1,0 +1,1291 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Amruta's Tutorials - Expert coaching for Science, Mathematics, German, and Sanskrit in Andheri East, Mumbai. 4.9★ Google Rated. Grades 8-10, SSC/CBSE/ICSE/HSC.">
+    <meta name="keywords" content="coaching classes andheri east, science tuition mumbai, german language classes, sanskrit coaching, maths tuition andheri, CBSE coaching, SSC coaching">
+    <title>Amruta's Tutorials | Expert Coaching in Andheri East, Mumbai</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: '#E8321A',
+                        'brand-dark': '#C4280F',
+                        'brand-light': '#FFF0ED',
+                        'gray-50': '#FAFAFA',
+                        'gray-100': '#F5F5F5',
+                        'gray-200': '#E5E5E5',
+                        'gray-600': '#525252',
+                        'gray-800': '#1A1A1A',
+                        'gray-900': '#0D0D0D',
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        display: ['Playfair Display', 'serif'],
+                    },
+                    boxShadow: {
+                        'card': '0 1px 3px rgba(0,0,0,0.04), 0 6px 24px rgba(0,0,0,0.06)',
+                        'card-hover': '0 4px 12px rgba(0,0,0,0.06), 0 20px 40px rgba(0,0,0,0.1)',
+                        'brand': '0 4px 14px rgba(232,50,26,0.35)',
+                        'brand-lg': '0 8px 30px rgba(232,50,26,0.4)',
+                        'nav': '0 1px 3px rgba(0,0,0,0.05)',
+                    },
+                    animation: {
+                        'float': 'float 6s ease-in-out infinite',
+                        'float-delayed': 'float 6s ease-in-out 2s infinite',
+                        'float-slow': 'float 8s ease-in-out 1s infinite',
+                        'float-fast': 'float 5s ease-in-out 0.5s infinite',
+                        'pulse-soft': 'pulseSoft 3s ease-in-out infinite',
+                        'slide-up': 'slideUp 0.6s ease-out forwards',
+                        'slide-down': 'slideDown 0.3s ease-out forwards',
+                        'fade-in': 'fadeIn 0.6s ease-out forwards',
+                        'scale-in': 'scaleIn 0.4s ease-out forwards',
+                        'spin-slow': 'spin 20s linear infinite',
+                        'bounce-gentle': 'bounceGentle 2s ease-in-out infinite',
+                    },
+                    keyframes: {
+                        float: {
+                            '0%, 100%': { transform: 'translateY(0px) rotate(0deg)' },
+                            '50%': { transform: 'translateY(-20px) rotate(3deg)' },
+                        },
+                        pulseSoft: {
+                            '0%, 100%': { opacity: '1' },
+                            '50%': { opacity: '0.7' },
+                        },
+                        slideUp: {
+                            '0%': { opacity: '0', transform: 'translateY(30px)' },
+                            '100%': { opacity: '1', transform: 'translateY(0)' },
+                        },
+                        slideDown: {
+                            '0%': { opacity: '0', transform: 'translateY(-10px)' },
+                            '100%': { opacity: '1', transform: 'translateY(0)' },
+                        },
+                        fadeIn: {
+                            '0%': { opacity: '0' },
+                            '100%': { opacity: '1' },
+                        },
+                        scaleIn: {
+                            '0%': { opacity: '0', transform: 'scale(0.9)' },
+                            '100%': { opacity: '1', transform: 'scale(1)' },
+                        },
+                        bounceGentle: {
+                            '0%, 100%': { transform: 'translateY(0)' },
+                            '50%': { transform: 'translateY(-6px)' },
+                        },
+                    },
+                }
+            }
+        }
+    </script>
+    <style>
+        * { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+        
+        .reveal { opacity: 0; transform: translateY(30px); transition: all 0.7s cubic-bezier(0.16, 1, 0.3, 1); }
+        .reveal.active { opacity: 1; transform: translateY(0); }
+        .reveal-delay-1 { transition-delay: 0.1s; }
+        .reveal-delay-2 { transition-delay: 0.2s; }
+        .reveal-delay-3 { transition-delay: 0.3s; }
+        .reveal-delay-4 { transition-delay: 0.4s; }
+
+        .glass { background: rgba(255,255,255,0.7); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); }
+        .glass-dark { background: rgba(0,0,0,0.6); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); }
+
+        .gradient-mesh {
+            background: 
+                radial-gradient(ellipse at 20% 50%, rgba(232,50,26,0.06) 0%, transparent 50%),
+                radial-gradient(ellipse at 80% 20%, rgba(232,50,26,0.04) 0%, transparent 50%),
+                radial-gradient(ellipse at 60% 80%, rgba(232,50,26,0.03) 0%, transparent 50%);
+        }
+
+        .text-gradient {
+            background: linear-gradient(135deg, #E8321A 0%, #FF6B4A 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .hero-pattern {
+            background-image: radial-gradient(circle at 1px 1px, rgba(232,50,26,0.07) 1px, transparent 0);
+            background-size: 40px 40px;
+        }
+
+        .card-lift { transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1); }
+        .card-lift:hover { transform: translateY(-6px); box-shadow: 0 4px 12px rgba(0,0,0,0.06), 0 20px 40px rgba(0,0,0,0.1); }
+
+        .btn-brand { 
+            background: #E8321A; 
+            transition: all 0.25s ease; 
+            position: relative;
+            overflow: hidden;
+        }
+        .btn-brand:hover { 
+            background: #C4280F; 
+            box-shadow: 0 8px 30px rgba(232,50,26,0.4);
+            transform: translateY(-1px);
+        }
+        .btn-brand:active { transform: translateY(0); }
+
+        .btn-outline { 
+            border: 1.5px solid #E8321A; 
+            color: #E8321A; 
+            transition: all 0.25s ease; 
+        }
+        .btn-outline:hover { 
+            background: #E8321A; 
+            color: white;
+            box-shadow: 0 8px 30px rgba(232,50,26,0.3);
+            transform: translateY(-1px);
+        }
+
+        .nav-link { position: relative; }
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            bottom: -2px;
+            left: 50%;
+            width: 0;
+            height: 2px;
+            background: #E8321A;
+            transition: all 0.25s ease;
+            transform: translateX(-50%);
+            border-radius: 1px;
+        }
+        .nav-link:hover::after { width: 100%; }
+
+        .counter-value { font-variant-numeric: tabular-nums; }
+
+        .whatsapp-fab {
+            animation: bounceGentle 2s ease-in-out infinite;
+        }
+
+        @media (max-width: 768px) {
+            .hero-pattern { background-size: 24px 24px; }
+        }
+
+        .testimonial-card {
+            position: relative;
+            overflow: hidden;
+        }
+        .testimonial-card::before {
+            content: '"';
+            position: absolute;
+            top: -10px;
+            left: 20px;
+            font-size: 120px;
+            font-family: 'Playfair Display', serif;
+            color: rgba(232,50,26,0.06);
+            line-height: 1;
+            pointer-events: none;
+        }
+
+        .mobile-menu {
+            transform: translateX(100%);
+            transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        .mobile-menu.open { transform: translateX(0); }
+
+        input:focus, textarea:focus, select:focus {
+            outline: none;
+            border-color: #E8321A;
+            box-shadow: 0 0 0 3px rgba(232,50,26,0.1);
+        }
+
+        .subject-icon {
+            transition: all 0.3s ease;
+        }
+        .subject-icon:hover {
+            transform: scale(1.15) rotate(5deg);
+        }
+
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-track { background: #F5F5F5; }
+        ::-webkit-scrollbar-thumb { background: #D4D4D4; border-radius: 3px; }
+        ::-webkit-scrollbar-thumb:hover { background: #A3A3A3; }
+
+        .logo-spin:hover .logo-ring { animation: spin 3s linear infinite; }
+    </style>
+</head>
+<body class="bg-white font-sans text-gray-800 overflow-x-hidden">
+
+    <!-- ==================== NAVBAR ==================== -->
+    <nav id="navbar" class="fixed top-0 left-0 right-0 z-50 transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16 md:h-18">
+                <!-- Logo -->
+                <a href="#" class="flex items-center gap-2.5 group logo-spin">
+                    <div class="logo-ring relative w-9 h-9 md:w-10 md:h-10 rounded-full bg-brand flex items-center justify-center shadow-brand">
+                        <span class="text-white font-bold text-sm md:text-base tracking-tight">AC</span>
+                        <div class="absolute inset-0 rounded-full border-2 border-white/20"></div>
+                    </div>
+                    <div class="flex flex-col">
+                        <span class="font-bold text-sm md:text-base text-gray-900 leading-tight">Amruta's Tutorials</span>
+                        <span class="text-[10px] md:text-xs text-gray-500 tracking-wide">Andheri East, Mumbai</span>
+                    </div>
+                </a>
+
+                <!-- Desktop Nav -->
+                <div class="hidden md:flex items-center gap-8">
+                    <a href="#about" class="nav-link text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors">About</a>
+                    <a href="#courses" class="nav-link text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors">Courses</a>
+                    <a href="#why-us" class="nav-link text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors">Why Us</a>
+                    <a href="#testimonials" class="nav-link text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors">Reviews</a>
+                    <a href="#contact" class="nav-link text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors">Contact</a>
+                    <a href="#contact" class="btn-brand text-white text-xs font-semibold px-5 py-2.5 rounded-full inline-flex items-center gap-1.5">
+                        Enroll Now
+                        <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+                    </a>
+                </div>
+
+                <!-- Mobile Hamburger -->
+                <button id="menuBtn" class="md:hidden w-10 h-10 rounded-xl flex items-center justify-center hover:bg-gray-100 transition-colors" aria-label="Open menu">
+                    <i data-lucide="menu" class="w-5 h-5 text-gray-700"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu Overlay -->
+    <div id="menuOverlay" class="fixed inset-0 bg-black/40 z-50 hidden opacity-0 transition-opacity duration-300"></div>
+
+    <!-- Mobile Menu -->
+    <div id="mobileMenu" class="mobile-menu fixed top-0 right-0 bottom-0 w-80 max-w-[85vw] bg-white z-50 shadow-2xl">
+        <div class="flex items-center justify-between p-5 border-b border-gray-100">
+            <span class="font-bold text-gray-900">Menu</span>
+            <button id="closeMenu" class="w-9 h-9 rounded-xl flex items-center justify-center hover:bg-gray-100 transition-colors" aria-label="Close menu">
+                <i data-lucide="x" class="w-5 h-5 text-gray-500"></i>
+            </button>
+        </div>
+        <div class="p-5 flex flex-col gap-1">
+            <a href="#about" class="mobile-nav-link flex items-center gap-3 px-4 py-3 rounded-xl text-gray-700 hover:bg-brand-light hover:text-brand font-medium transition-all">
+                <i data-lucide="info" class="w-4.5 h-4.5"></i> About
+            </a>
+            <a href="#courses" class="mobile-nav-link flex items-center gap-3 px-4 py-3 rounded-xl text-gray-700 hover:bg-brand-light hover:text-brand font-medium transition-all">
+                <i data-lucide="book-open" class="w-4.5 h-4.5"></i> Courses
+            </a>
+            <a href="#why-us" class="mobile-nav-link flex items-center gap-3 px-4 py-3 rounded-xl text-gray-700 hover:bg-brand-light hover:text-brand font-medium transition-all">
+                <i data-lucide="award" class="w-4.5 h-4.5"></i> Why Us
+            </a>
+            <a href="#testimonials" class="mobile-nav-link flex items-center gap-3 px-4 py-3 rounded-xl text-gray-700 hover:bg-brand-light hover:text-brand font-medium transition-all">
+                <i data-lucide="message-circle" class="w-4.5 h-4.5"></i> Reviews
+            </a>
+            <a href="#contact" class="mobile-nav-link flex items-center gap-3 px-4 py-3 rounded-xl text-gray-700 hover:bg-brand-light hover:text-brand font-medium transition-all">
+                <i data-lucide="phone" class="w-4.5 h-4.5"></i> Contact
+            </a>
+            <div class="mt-4 pt-4 border-t border-gray-100">
+                <a href="#contact" class="btn-brand flex items-center justify-center gap-2 text-white font-semibold px-5 py-3 rounded-xl w-full">
+                    <i data-lucide="graduation-cap" class="w-4 h-4"></i> Enroll Now
+                </a>
+                <a href="https://wa.me/919920696989" target="_blank" class="flex items-center justify-center gap-2 text-green-600 font-semibold px-5 py-3 rounded-xl w-full mt-2 bg-green-50 hover:bg-green-100 transition-colors">
+                    <svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                    WhatsApp Us
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- ==================== HERO SECTION ==================== -->
+    <section id="hero" class="relative min-h-screen flex items-center pt-16 overflow-hidden">
+        <!-- Background Pattern -->
+        <div class="hero-pattern absolute inset-0"></div>
+        <div class="gradient-mesh absolute inset-0"></div>
+
+        <!-- Floating Subject Icons -->
+        <div class="absolute inset-0 pointer-events-none overflow-hidden">
+            <div class="subject-icon absolute top-[15%] left-[8%] md:left-[12%] w-12 h-12 md:w-14 md:h-14 rounded-2xl glass shadow-card flex items-center justify-center animate-float">
+                <span class="text-xl md:text-2xl">🔬</span>
+            </div>
+            <div class="subject-icon absolute top-[25%] right-[10%] md:right-[15%] w-12 h-12 md:w-14 md:h-14 rounded-2xl glass shadow-card flex items-center justify-center animate-float-delayed">
+                <span class="text-xl md:text-2xl">⚛️</span>
+            </div>
+            <div class="subject-icon absolute bottom-[30%] left-[5%] md:left-[8%] w-11 h-11 md:w-13 md:h-13 rounded-2xl glass shadow-card flex items-center justify-center animate-float-slow">
+                <span class="text-lg md:text-xl">➕</span>
+            </div>
+            <div class="subject-icon absolute bottom-[20%] right-[6%] md:right-[10%] w-12 h-12 md:w-14 md:h-14 rounded-2xl glass shadow-card flex items-center justify-center animate-float-fast">
+                <span class="text-xl md:text-2xl">🧬</span>
+            </div>
+            <div class="subject-icon absolute top-[55%] left-[15%] w-10 h-10 md:w-12 md:h-12 rounded-xl glass shadow-card flex items-center justify-center animate-float-delayed hidden md:flex">
+                <span class="text-lg md:text-xl">🇩🇪</span>
+            </div>
+            <div class="subject-icon absolute top-[10%] left-[45%] w-10 h-10 md:w-12 md:h-12 rounded-xl glass shadow-card flex items-center justify-center animate-float-slow hidden md:flex">
+                <span class="text-lg md:text-xl">🕉️</span>
+            </div>
+        </div>
+
+        <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
+            <div class="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+                <!-- Left Content -->
+                <div class="text-center lg:text-left">
+                    <!-- Trust Badge -->
+                    <div class="inline-flex items-center gap-2 bg-white/80 backdrop-blur-sm border border-gray-200/60 rounded-full px-4 py-2 mb-6 shadow-sm animate-fade-in">
+                        <div class="flex -space-x-0.5">
+                            <i data-lucide="star" class="w-3.5 h-3.5 text-amber-400 fill-amber-400"></i>
+                            <i data-lucide="star" class="w-3.5 h-3.5 text-amber-400 fill-amber-400"></i>
+                            <i data-lucide="star" class="w-3.5 h-3.5 text-amber-400 fill-amber-400"></i>
+                            <i data-lucide="star" class="w-3.5 h-3.5 text-amber-400 fill-amber-400"></i>
+                            <i data-lucide="star" class="w-3.5 h-3.5 text-amber-400 fill-amber-400"></i>
+                        </div>
+                        <span class="text-xs font-semibold text-gray-700">4.9 Google Rating</span>
+                        <span class="text-gray-300">|</span>
+                        <span class="text-xs text-gray-500">63+ Reviews</span>
+                    </div>
+
+                    <!-- Headline -->
+                    <h1 class="font-display text-4xl sm:text-5xl lg:text-6xl font-bold leading-[1.1] tracking-tight text-gray-900 mb-6 animate-slide-up">
+                        Unlock Your 
+                        <span class="text-gradient">Potential</span> 
+                        with Expert Guidance
+                    </h1>
+
+                    <!-- Subtext -->
+                    <p class="text-base sm:text-lg text-gray-500 leading-relaxed max-w-lg mx-auto lg:mx-0 mb-8 animate-slide-up" style="animation-delay: 0.15s;">
+                        Expert coaching for Science, Mathematics, German, and Sanskrit with personalized attention for every student.
+                    </p>
+
+                    <!-- CTA Buttons -->
+                    <div class="flex flex-col sm:flex-row gap-3 justify-center lg:justify-start animate-slide-up" style="animation-delay: 0.3s;">
+                        <a href="#contact" class="btn-brand text-white font-semibold px-7 py-3.5 rounded-full inline-flex items-center justify-center gap-2 text-sm shadow-brand">
+                            <i data-lucide="graduation-cap" class="w-4 h-4"></i>
+                            Enroll Now
+                        </a>
+                        <a href="https://wa.me/919920696989?text=Hi%20Amruta's%20Tutorials!%20I'm%20interested%20in%20joining." target="_blank" class="btn-outline font-semibold px-7 py-3.5 rounded-full inline-flex items-center justify-center gap-2 text-sm bg-white">
+                            <svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                            WhatsApp Us
+                        </a>
+                    </div>
+
+                    <!-- Quick Stats Mobile -->
+                    <div class="flex items-center gap-6 justify-center lg:justify-start mt-8 animate-fade-in" style="animation-delay: 0.5s;">
+                        <div class="text-center">
+                            <div class="text-xl font-bold text-gray-900">63+</div>
+                            <div class="text-[11px] text-gray-400 uppercase tracking-wider">Reviews</div>
+                        </div>
+                        <div class="w-px h-8 bg-gray-200"></div>
+                        <div class="text-center">
+                            <div class="text-xl font-bold text-gray-900">4+</div>
+                            <div class="text-[11px] text-gray-400 uppercase tracking-wider">Boards</div>
+                        </div>
+                        <div class="w-px h-8 bg-gray-200"></div>
+                        <div class="text-center">
+                            <div class="text-xl font-bold text-gray-900">8-10</div>
+                            <div class="text-[11px] text-gray-400 uppercase tracking-wider">Grades</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Visual -->
+                <div class="hidden lg:flex justify-center items-center relative">
+                    <div class="relative w-full max-w-md">
+                        <!-- Decorative circles -->
+                        <div class="absolute -top-8 -right-8 w-64 h-64 rounded-full bg-brand/5 animate-spin-slow"></div>
+                        <div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-brand/3"></div>
+                        
+                        <!-- Main Image Card -->
+                        <div class="relative rounded-3xl overflow-hidden shadow-card-hover border border-gray-100">
+                            <img src="https://picsum.photos/seed/amrutastudents/600/700" alt="Students at Amruta's Tutorials" class="w-full h-[480px] object-cover">
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent"></div>
+                            
+                            <!-- Overlay Card -->
+                            <div class="absolute bottom-5 left-5 right-5 glass-dark rounded-2xl p-4 border border-white/10">
+                                <div class="flex items-center gap-3">
+                                    <div class="w-10 h-10 rounded-full bg-brand flex items-center justify-center flex-shrink-0">
+                                        <i data-lucide="trending-up" class="w-5 h-5 text-white"></i>
+                                    </div>
+                                    <div>
+                                        <div class="text-white text-sm font-semibold">Trusted by Parents</div>
+                                        <div class="text-white/60 text-xs">Since establishment in Andheri East</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Floating badge -->
+                        <div class="absolute -top-4 -left-4 bg-white rounded-2xl shadow-card p-3 animate-bounce-gentle border border-gray-50">
+                            <div class="flex items-center gap-2">
+                                <div class="w-8 h-8 rounded-full bg-green-50 flex items-center justify-center">
+                                    <i data-lucide="check-circle-2" class="w-4 h-4 text-green-500"></i>
+                                </div>
+                                <div>
+                                    <div class="text-xs font-bold text-gray-900">Google Verified</div>
+                                    <div class="text-[10px] text-gray-400">Coaching Centre</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Scroll Indicator -->
+        <div class="absolute bottom-8 left-1/2 -translate-x-1/2 hidden md:flex flex-col items-center gap-2 animate-pulse-soft">
+            <span class="text-[10px] uppercase tracking-widest text-gray-400">Scroll</span>
+            <i data-lucide="chevron-down" class="w-4 h-4 text-gray-400"></i>
+        </div>
+    </section>
+
+    <!-- ==================== ABOUT SECTION ==================== -->
+    <section id="about" class="py-20 md:py-28 bg-gray-50 relative overflow-hidden">
+        <div class="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-gray-200 to-transparent"></div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+            <div class="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
+                <!-- Left Image -->
+                <div class="reveal">
+                    <div class="relative">
+                        <div class="rounded-3xl overflow-hidden shadow-card">
+                            <img src="https://picsum.photos/seed/classroom2024/600/500" alt="Classroom at Amruta's Tutorials" class="w-full h-[380px] md:h-[440px] object-cover">
+                        </div>
+                        <!-- Experience badge -->
+                        <div class="absolute -bottom-5 -right-3 md:-right-6 bg-brand text-white rounded-2xl p-5 shadow-brand-lg">
+                            <div class="text-3xl font-bold">4.9<span class="text-lg">★</span></div>
+                            <div class="text-xs text-white/80 mt-0.5">Google Rating</div>
+                        </div>
+                        <!-- Decorative -->
+                        <div class="absolute -top-4 -left-4 w-20 h-20 border-2 border-brand/15 rounded-2xl"></div>
+                    </div>
+                </div>
+
+                <!-- Right Content -->
+                <div>
+                    <div class="reveal">
+                        <span class="inline-flex items-center gap-1.5 text-brand text-xs font-semibold uppercase tracking-widest mb-4">
+                            <span class="w-6 h-px bg-brand"></span>
+                            About Us
+                        </span>
+                    </div>
+                    <h2 class="reveal reveal-delay-1 font-display text-3xl md:text-4xl font-bold text-gray-900 leading-tight mb-6">
+                        About Amruta's <span class="text-gradient">Tutorials</span>
+                    </h2>
+                    <p class="reveal reveal-delay-2 text-gray-500 leading-relaxed mb-6">
+                        Founded by <strong class="text-gray-700">Mrs. Amruta P.</strong>, a passionate educator dedicated to helping students build confidence and academic excellence.
+                    </p>
+                    <p class="reveal reveal-delay-2 text-gray-500 leading-relaxed mb-8">
+                        Located in <strong class="text-gray-700">Andheri East, Mumbai</strong>, the institute provides a nurturing environment where every student receives the attention they deserve to thrive academically.
+                    </p>
+
+                    <!-- Feature List -->
+                    <div class="reveal reveal-delay-3 grid grid-cols-1 sm:grid-cols-2 gap-3 mb-8">
+                        <div class="flex items-center gap-3 bg-white rounded-xl px-4 py-3 shadow-sm border border-gray-100">
+                            <div class="w-8 h-8 rounded-lg bg-brand-light flex items-center justify-center flex-shrink-0">
+                                <i data-lucide="building-2" class="w-4 h-4 text-brand"></i>
+                            </div>
+                            <span class="text-sm font-medium text-gray-700">Offline Classroom Coaching</span>
+                        </div>
+                        <div class="flex items-center gap-3 bg-white rounded-xl px-4 py-3 shadow-sm border border-gray-100">
+                            <div class="w-8 h-8 rounded-lg bg-brand-light flex items-center justify-center flex-shrink-0">
+                                <i data-lucide="monitor" class="w-4 h-4 text-brand"></i>
+                            </div>
+                            <span class="text-sm font-medium text-gray-700">Online Live Classes</span>
+                        </div>
+                        <div class="flex items-center gap-3 bg-white rounded-xl px-4 py-3 shadow-sm border border-gray-100">
+                            <div class="w-8 h-8 rounded-lg bg-brand-light flex items-center justify-center flex-shrink-0">
+                                <i data-lucide="heart-handshake" class="w-4 h-4 text-brand"></i>
+                            </div>
+                            <span class="text-sm font-medium text-gray-700">Personalized Mentoring</span>
+                        </div>
+                        <div class="flex items-center gap-3 bg-white rounded-xl px-4 py-3 shadow-sm border border-gray-100">
+                            <div class="w-8 h-8 rounded-lg bg-brand-light flex items-center justify-center flex-shrink-0">
+                                <i data-lucide="shield-check" class="w-4 h-4 text-brand"></i>
+                            </div>
+                            <span class="text-sm font-medium text-gray-700">Strong Academic Foundations</span>
+                        </div>
+                    </div>
+
+                    <!-- Trust Points -->
+                    <div class="reveal reveal-delay-4 flex items-center gap-4 flex-wrap">
+                        <div class="flex items-center gap-1.5 text-sm text-gray-600">
+                            <i data-lucide="star" class="w-4 h-4 text-amber-400 fill-amber-400"></i>
+                            Trusted by students & parents
+                        </div>
+                        <div class="flex items-center gap-1.5 text-sm text-gray-600">
+                            <i data-lucide="smile" class="w-4 h-4 text-brand"></i>
+                            Friendly & supportive environment
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Stats Counter -->
+            <div class="reveal mt-16 md:mt-20 grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
+                <div class="bg-white rounded-2xl p-6 text-center shadow-card border border-gray-100 card-lift">
+                    <div class="text-3xl md:text-4xl font-bold text-brand counter-value" data-target="63" data-suffix="+">0</div>
+                    <div class="text-xs text-gray-500 mt-2 uppercase tracking-wider font-medium">Google Reviews</div>
+                </div>
+                <div class="bg-white rounded-2xl p-6 text-center shadow-card border border-gray-100 card-lift">
+                    <div class="text-3xl md:text-4xl font-bold text-brand counter-value" data-target="4" data-suffix="+">0</div>
+                    <div class="text-xs text-gray-500 mt-2 uppercase tracking-wider font-medium">Boards Covered</div>
+                </div>
+                <div class="bg-white rounded-2xl p-6 text-center shadow-card border border-gray-100 card-lift">
+                    <div class="text-3xl md:text-4xl font-bold text-brand">2</div>
+                    <div class="text-xs text-gray-500 mt-2 uppercase tracking-wider font-medium">Learning Modes</div>
+                </div>
+                <div class="bg-white rounded-2xl p-6 text-center shadow-card border border-gray-100 card-lift">
+                    <div class="text-3xl md:text-4xl font-bold text-brand">8–10</div>
+                    <div class="text-xs text-gray-500 mt-2 uppercase tracking-wider font-medium">Specialized Grades</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== COURSES SECTION ==================== -->
+    <section id="courses" class="py-20 md:py-28 bg-white relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <!-- Section Header -->
+            <div class="text-center max-w-2xl mx-auto mb-14">
+                <span class="reveal inline-flex items-center gap-1.5 text-brand text-xs font-semibold uppercase tracking-widest mb-4">
+                    <span class="w-6 h-px bg-brand"></span>
+                    Our Courses
+                    <span class="w-6 h-px bg-brand"></span>
+                </span>
+                <h2 class="reveal reveal-delay-1 font-display text-3xl md:text-4xl font-bold text-gray-900 leading-tight mb-4">
+                    Courses We <span class="text-gradient">Offer</span>
+                </h2>
+                <p class="reveal reveal-delay-2 text-gray-500 leading-relaxed">
+                    Comprehensive coaching designed to build strong foundations and help students excel across multiple boards and subjects.
+                </p>
+            </div>
+
+            <!-- Course Cards -->
+            <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-5 md:gap-6">
+                <!-- Science -->
+                <div class="reveal reveal-delay-1 group bg-white rounded-2xl border border-gray-100 overflow-hidden shadow-card card-lift">
+                    <div class="h-3 bg-gradient-to-r from-brand to-red-400"></div>
+                    <div class="p-6">
+                        <div class="w-14 h-14 rounded-2xl bg-brand-light flex items-center justify-center mb-5 group-hover:bg-brand group-hover:shadow-brand transition-all duration-300">
+                            <span class="text-2xl group-hover:scale-110 transition-transform duration-300">🔬</span>
+                        </div>
+                        <h3 class="text-lg font-bold text-gray-900 mb-2">Science</h3>
+                        <p class="text-sm text-gray-500 mb-4 leading-relaxed">Physics, Chemistry & Biology taught with conceptual clarity and practical understanding.</p>
+                        <div class="space-y-2 mb-5">
+                            <div class="flex items-center gap-2 text-sm text-gray-600">
+                                <i data-lucide="check" class="w-3.5 h-3.5 text-brand"></i> Physics
+                            </div>
+                            <div class="flex items-center gap-2 text-sm text-gray-600">
+                                <i data-lucide="check" class="w-3.5 h-3.5 text-brand"></i> Chemistry
+                            </div>
+                            <div class="flex items-center gap-2 text-sm text-gray-600">
+                                <i data-lucide="check" class="w-3.5 h-3.5 text-brand"></i> Biology
+                            </div>
+                        </div>
+                        <div class="flex items-center gap-2 pt-4 border-t border-gray-100">
+                            <span class="text-xs font-semibold text-brand bg-brand-light px-2.5 py-1 rounded-full">8th</span>
+                            <span class="text-xs font-semibold text-brand bg-brand-light px-2.5 py-1 rounded-full">9th</span>
+                            <span class="text-xs font-semibold text-brand bg-brand-light px-2.5 py-1 rounded-full">10th</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Mathematics -->
+                <div class="reveal reveal-delay-2 group bg-white rounded-2xl border border-gray-100 overflow-hidden shadow-card card-lift">
+                    <div class="h-3 bg-gradient-to-r from-blue-500 to-blue-400"></div>
+                    <div class="p-6">
+                        <div class="w-14 h-14 rounded-2xl bg-blue-50 flex items-center justify-center mb-5 group-hover:bg-blue-500 group-hover:shadow-lg transition-all duration-300">
+                            <span class="text-2xl group-hover:scale-110 transition-transform duration-300">➕</span>
+                        </div>
+                        <h3 class="text-lg font-bold text-gray-900 mb-2">Mathematics</h3>
+                        <p class="text-sm text-gray-500 mb-4 leading-relaxed">Build strong problem-solving skills with step-by-step methods and regular practice.</p>
+                        <div class="space-y-2 mb-5">
+                            <div class="flex items-center gap-2 text-sm text-gray-600">
+                                <i data-lucide="check" class="w-3.5 h-3.5 text-blue-500"></i> Algebra & Geometry
+                            </div>
+                            <div class="flex items-center gap-2 text-sm text-gray-600">
+                                <i data-lucide="check" class="w-3.5 h-3.5 text-blue-500"></i> Trigonometry
+                            </div>
+                            <div class="flex items-center gap-2 text-sm text-gray-600">
+                                <i data-lucide="check" class="w-3.5 h-3.5 text-blue-500"></i> Statistics & Probability
+                            </div>
+                        </div>
+                        <div class="flex items-center gap-2 pt-4 border-t border-gray-100">
+                            <span class="text-xs font-semibold text-blue-600 bg-blue-50 px-2.5 py-1 rounded-full">8th</span>
+                            <span class="text-xs font-semibold text-blue-600 bg-blue-50 px-2.5 py-1 rounded-full">9th</span>
+                            <span class="text-xs font-semibold text-blue-600 bg-blue-50 px-2.5 py-1 rounded-full">10th</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- German -->
+                <div class="reveal reveal-delay-3 group bg-white rounded-2xl border border-gray-100 overflow-hidden shadow-card card-lift">
+                    <div class="h-3 bg-gradient-to-r from-amber-500 to-yellow-400"></div>
+                    <div class="p-6">
+                        <div class="w-14 h-14 rounded-2xl bg-amber-50 flex items-center justify-center mb-5 group-hover:bg-amber-500 group-hover:shadow-lg transition-all duration-300">
+                            <span class="text-2xl group-hover:scale-110 transition-transform duration-300">🇩🇪</span>
+                        </div>
+                        <h3 class="text-lg font-bold text-gray-900 mb-2">German Language</h3>
+                        <p class="text-sm text-gray-500 mb-4 leading-relaxed">Learn German from basics to advanced levels with expert language trainers.</p>
+                        <div class="space-y-2 mb-5">
+                            <div class="flex items-center gap-2 text-sm text-gray-600">
+                                <i data-lucide="check" class="w-3.5 h-3.5 text-amber-500"></i> A1 – Beginner
+                            </div>
+                            <div class="flex items-center gap-2 text-sm text-gray-600">
+                                <i data-lucide="check" class="w-3.5 h-3.5 text-amber-500"></i> B1 – Intermediate
+                            </div>
+                            <div class="flex items-center gap-2 text-sm text-gray-600">
+                                <i data-lucide="check" class="w-3.5 h-3.5 text-amber-500"></i> C1 – Advanced
+                            </div>
+                        </div>
+                        <div class="flex items-center gap-2 pt-4 border-t border-gray-100 flex-wrap">
+                            <span class="text-xs font-semibold text-amber-600 bg-amber-50 px-2.5 py-1 rounded-full">SSC</span>
+                            <span class="text-xs font-semibold text-amber-600 bg-amber-50 px-2.5 py-1 rounded-full">HSC</span>
+                            <span class="text-xs font-semibold text-amber-600 bg-amber-50 px-2.5 py-1 rounded-full">CBSE</span>
+                            <span class="text-xs font-semibold text-amber-600 bg-amber-50 px-2.5 py-1 rounded-full">ICSE</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sanskrit -->
+                <div class="reveal reveal-delay-4 group bg-white rounded-2xl border border-gray-100 overflow-hidden shadow-card card-lift">
+                    <div class="h-3 bg-gradient-to-r from-orange-500 to-orange-400"></div>
+                    <div class="p-6">
+                        <div class="w-14 h-14 rounded-2xl bg-orange-50 flex items-center justify-center mb-5 group-hover:bg-orange-500 group-hover:shadow-lg transition-all duration-300">
+                            <span class="text-2xl group-hover:scale-110 transition-transform duration-300">🕉️</span>
+                        </div>
+                        <h3 class="text-lg font-bold text-gray-900 mb-2">Sanskrit</h3>
+                        <p class="text-sm text-gray-500 mb-4 leading-relaxed">Master Sanskrit grammar, literature, and comprehension with structured coaching.</p>
+                        <div class="space-y-2 mb-5">
+                            <div class="flex items-center gap-2 text-sm text-gray-600">
+                                <i data-lucide="check" class="w-3.5 h-3.5 text-orange-500"></i> Grammar & Shabdarupa
+                            </div>
+                            <div class="flex items-center gap-2 text-sm text-gray-600">
+                                <i data-lucide="check" class="w-3.5 h-3.5 text-orange-500"></i> Literature & Comprehension
+                            </div>
+                            <div class="flex items-center gap-2 text-sm text-gray-600">
+                                <i data-lucide="check" class="w-3.5 h-3.5 text-orange-500"></i> Board Exam Preparation
+                            </div>
+                        </div>
+                        <div class="flex items-center gap-2 pt-4 border-t border-gray-100 flex-wrap">
+                            <span class="text-xs font-semibold text-orange-600 bg-orange-50 px-2.5 py-1 rounded-full">SSC</span>
+                            <span class="text-xs font-semibold text-orange-600 bg-orange-50 px-2.5 py-1 rounded-full">HSC</span>
+                            <span class="text-xs font-semibold text-orange-600 bg-orange-50 px-2.5 py-1 rounded-full">CBSE</span>
+                            <span class="text-xs font-semibold text-orange-600 bg-orange-50 px-2.5 py-1 rounded-full">ICSE</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== WHY CHOOSE US SECTION ==================== -->
+    <section id="why-us" class="py-20 md:py-28 bg-gray-50 relative overflow-hidden">
+        <div class="absolute inset-0 hero-pattern opacity-50"></div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+            <!-- Section Header -->
+            <div class="text-center max-w-2xl mx-auto mb-14">
+                <span class="reveal inline-flex items-center gap-1.5 text-brand text-xs font-semibold uppercase tracking-widest mb-4">
+                    <span class="w-6 h-px bg-brand"></span>
+                    Why Choose Us
+                    <span class="w-6 h-px bg-brand"></span>
+                </span>
+                <h2 class="reveal reveal-delay-1 font-display text-3xl md:text-4xl font-bold text-gray-900 leading-tight mb-4">
+                    What Makes Us <span class="text-gradient">Different</span>
+                </h2>
+                <p class="reveal reveal-delay-2 text-gray-500 leading-relaxed">
+                    We go beyond textbooks to create a learning experience that truly transforms students.
+                </p>
+            </div>
+
+            <!-- Feature Cards -->
+            <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-5 md:gap-6">
+                <div class="reveal reveal-delay-1 group bg-white rounded-2xl p-7 border border-gray-100 shadow-card card-lift text-center">
+                    <div class="w-16 h-16 rounded-2xl bg-brand-light flex items-center justify-center mx-auto mb-5 group-hover:bg-brand group-hover:shadow-brand transition-all duration-300">
+                        <i data-lucide="star" class="w-7 h-7 text-brand group-hover:text-white transition-colors duration-300"></i>
+                    </div>
+                    <h3 class="text-base font-bold text-gray-900 mb-2">4.9★ Rated Centre</h3>
+                    <p class="text-sm text-gray-500 leading-relaxed">Consistently rated excellent by students and parents on Google.</p>
+                </div>
+
+                <div class="reveal reveal-delay-2 group bg-white rounded-2xl p-7 border border-gray-100 shadow-card card-lift text-center">
+                    <div class="w-16 h-16 rounded-2xl bg-blue-50 flex items-center justify-center mx-auto mb-5 group-hover:bg-blue-500 group-hover:shadow-lg transition-all duration-300">
+                        <i data-lucide="monitor-smartphone" class="w-7 h-7 text-blue-500 group-hover:text-white transition-colors duration-300"></i>
+                    </div>
+                    <h3 class="text-base font-bold text-gray-900 mb-2">Physical + Online</h3>
+                    <p class="text-sm text-gray-500 leading-relaxed">Choose classroom learning or attend live sessions from home.</p>
+                </div>
+
+                <div class="reveal reveal-delay-3 group bg-white rounded-2xl p-7 border border-gray-100 shadow-card card-lift text-center">
+                    <div class="w-16 h-16 rounded-2xl bg-amber-50 flex items-center justify-center mx-auto mb-5 group-hover:bg-amber-500 group-hover:shadow-lg transition-all duration-300">
+                        <i data-lucide="layout-grid" class="w-7 h-7 text-amber-500 group-hover:text-white transition-colors duration-300"></i>
+                    </div>
+                    <h3 class="text-base font-bold text-gray-900 mb-2">All Major Boards</h3>
+                    <p class="text-sm text-gray-500 leading-relaxed">SSC, HSC, CBSE, and ICSE — comprehensive board coverage.</p>
+                </div>
+
+                <div class="reveal reveal-delay-4 group bg-white rounded-2xl p-7 border border-gray-100 shadow-card card-lift text-center">
+                    <div class="w-16 h-16 rounded-2xl bg-green-50 flex items-center justify-center mx-auto mb-5 group-hover:bg-green-500 group-hover:shadow-lg transition-all duration-300">
+                        <i data-lucide="users" class="w-7 h-7 text-green-500 group-hover:text-white transition-colors duration-300"></i>
+                    </div>
+                    <h3 class="text-base font-bold text-gray-900 mb-2">Personal Attention</h3>
+                    <p class="text-sm text-gray-500 leading-relaxed">Small batch sizes ensure every student gets individual focus.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== TESTIMONIALS SECTION ==================== -->
+    <section id="testimonials" class="py-20 md:py-28 bg-white relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <!-- Section Header -->
+            <div class="text-center max-w-2xl mx-auto mb-14">
+                <span class="reveal inline-flex items-center gap-1.5 text-brand text-xs font-semibold uppercase tracking-widest mb-4">
+                    <span class="w-6 h-px bg-brand"></span>
+                    Testimonials
+                    <span class="w-6 h-px bg-brand"></span>
+                </span>
+                <h2 class="reveal reveal-delay-1 font-display text-3xl md:text-4xl font-bold text-gray-900 leading-tight mb-4">
+                    What Parents & Students <span class="text-gradient">Say</span>
+                </h2>
+                <p class="reveal reveal-delay-2 text-gray-500 leading-relaxed">
+                    Real reviews from our Google listing — hear directly from the families who trust us.
+                </p>
+            </div>
+
+            <!-- Testimonial Cards -->
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Review 1 -->
+                <div class="reveal reveal-delay-1 testimonial-card bg-white rounded-2xl p-7 border border-gray-100 shadow-card card-lift">
+                    <div class="flex items-center gap-1 mb-4">
+                        <i data-lucide="star" class="w-4 h-4 text-amber-400 fill-amber-400"></i>
+                        <i data-lucide="star" class="w-4 h-4 text-amber-400 fill-amber-400"></i>
+                        <i data-lucide="star" class="w-4 h-4 text-amber-400 fill-amber-400"></i>
+                        <i data-lucide="star" class="w-4 h-4 text-amber-400 fill-amber-400"></i>
+                        <i data-lucide="star" class="w-4 h-4 text-amber-400 fill-amber-400"></i>
+                    </div>
+                    <p class="text-gray-600 leading-relaxed mb-6 text-sm">
+                        "Very kind and caring teachers who push you to do your best. My child's confidence in Science has improved significantly since joining."
+                    </p>
+                    <div class="flex items-center gap-3 pt-4 border-t border-gray-100">
+                        <div class="w-10 h-10 rounded-full bg-brand-light flex items-center justify-center">
+                            <span class="text-sm font-bold text-brand">RP</span>
+                        </div>
+                        <div>
+                            <div class="text-sm font-semibold text-gray-900">Parent Review</div>
+                            <div class="text-xs text-gray-400">via Google Reviews</div>
+                        </div>
+                        <div class="ml-auto">
+                            <svg class="w-5 h-5 text-gray-300" viewBox="https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 0 1-2.2 3.32v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.1z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Review 2 -->
+                <div class="reveal reveal-delay-2 testimonial-card bg-white rounded-2xl p-7 border border-gray-100 shadow-card card-lift">
+                    <div class="flex items-center gap-1 mb-4">
+                        <i data-lucide="star" class="w-4 h-4 text-amber-400 fill-amber-400"></i>
+                        <i data-lucide="star" class="w-4 h-4 text-amber-400 fill-amber-400"></i>
+                        <i data-lucide="star" class="w-4 h-4 text-amber-400 fill-amber-400"></i>
+                        <i data-lucide="star" class="w-4 h-4 text-amber-400 fill-amber-400"></i>
+                        <i data-lucide="star" class="w-4 h-4 text-amber-400 fill-amber-400"></i>
+                    </div>
+                    <p class="text-gray-600 leading-relaxed mb-6 text-sm">
+                        "Good choice for 8th, 9th and 10th standard students. The teaching methodology is clear and the atmosphere is very supportive for learning."
+                    </p>
+                    <div class="flex items-center gap-3 pt-4 border-t border-gray-100">
+                        <div class="w-10 h-10 rounded-full bg-blue-50 flex items-center justify-center">
+                            <span class="text-sm font-bold text-blue-500">SK</span>
+                        </div>
+                        <div>
+                            <div class="text-sm font-semibold text-gray-900">Student Guardian</div>
+                            <div class="text-xs text-gray-400">via Google Reviews</div>
+                        </div>
+                        <div class="ml-auto">
+                            <svg class="w-5 h-5 text-gray-300" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 0 1-2.2 3.32v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.1z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Review 3 -->
+                <div class="reveal reveal-delay-3 testimonial-card bg-white rounded-2xl p-7 border border-gray-100 shadow-card card-lift md:col-span-2 lg:col-span-1">
+                    <div class="flex items-center gap-1 mb-4">
+                        <i data-lucide="star" class="w-4 h-4 text-amber-400 fill-amber-400"></i>
+                        <i data-lucide="star" class="w-4 h-4 text-amber-400 fill-amber-400"></i>
+                        <i data-lucide="star" class="w-4 h-4 text-amber-400 fill-amber-400"></i>
+                        <i data-lucide="star" class="w-4 h-4 text-amber-400 fill-amber-400"></i>
+                        <i data-lucide="star" class="w-4 h-4 text-amber-400 fill-amber-400"></i>
+                    </div>
+                    <p class="text-gray-600 leading-relaxed mb-6 text-sm">
+                        "Amruta ma'am is extremely patient and thorough with her teaching. The German language classes are especially well-structured. Highly recommend!"
+                    </p>
+                    <div class="flex items-center gap-3 pt-4 border-t border-gray-100">
+                        <div class="w-10 h-10 rounded-full bg-amber-50 flex items-center justify-center">
+                            <span class="text-sm font-bold text-amber-600">DM</span>
+                        </div>
+                        <div>
+                            <div class="text-sm font-semibold text-gray-900">Parent Review</div>
+                            <div class="text-xs text-gray-400">via Google Reviews</div>
+                        </div>
+                        <div class="ml-auto">
+                            <svg class="w-5 h-5 text-gray-300" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 0 1-2.2 3.32v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.1z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Google CTA -->
+            <div class="reveal text-center mt-10">
+                <a href="https://www.google.com/maps/place/Amruta's+Tutorials" target="_blank" class="inline-flex items-center gap-2 text-sm font-medium text-gray-500 hover:text-brand transition-colors">
+                    See all 63+ reviews on Google
+                    <i data-lucide="external-link" class="w-3.5 h-3.5"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== CONTACT SECTION ==================== -->
+    <section id="contact" class="py-20 md:py-28 bg-gray-50 relative overflow-hidden">
+        <div class="absolute inset-0 hero-pattern opacity-40"></div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+            <!-- Section Header -->
+            <div class="text-center max-w-2xl mx-auto mb-14">
+                <span class="reveal inline-flex items-center gap-1.5 text-brand text-xs font-semibold uppercase tracking-widest mb-4">
+                    <span class="w-6 h-px bg-brand"></span>
+                    Get In Touch
+                    <span class="w-6 h-px bg-brand"></span>
+                </span>
+                <h2 class="reveal reveal-delay-1 font-display text-3xl md:text-4xl font-bold text-gray-900 leading-tight mb-4">
+                    Contact <span class="text-gradient">Us</span>
+                </h2>
+                <p class="reveal reveal-delay-2 text-gray-500 leading-relaxed">
+                    Visit us, call us, or drop a message — we'd love to hear from you and help your child start their learning journey.
+                </p>
+            </div>
+
+            <div class="grid lg:grid-cols-5 gap-8">
+                <!-- Contact Info + Map -->
+                <div class="lg:col-span-2 space-y-5">
+                    <!-- Map -->
+                    <div class="reveal rounded-2xl overflow-hidden shadow-card border border-gray-100 h-56">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3769.9!2d72.86!3d19.12!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTnCsDA3JzEyLjAiTiA3MsKwNTEnMzYuMCJF!5e0!3m2!1sen!2sin!4v1" 
+                            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                            class="grayscale hover:grayscale-0 transition-all duration-500">
+                        </iframe>
+                    </div>
+
+                    <!-- Contact Cards -->
+                    <div class="reveal reveal-delay-1 bg-white rounded-2xl p-5 shadow-card border border-gray-100">
+                        <div class="flex items-start gap-3.5">
+                            <div class="w-10 h-10 rounded-xl bg-brand-light flex items-center justify-center flex-shrink-0 mt-0.5">
+                                <i data-lucide="map-pin" class="w-5 h-5 text-brand"></i>
+                            </div>
+                            <div>
+                                <div class="text-sm font-semibold text-gray-900 mb-1">Our Address</div>
+                                <div class="text-sm text-gray-500 leading-relaxed">Nadkarni Laxmi Estate CHS, Old Nagardas Cross Rd, near Chinai College Lane, Andheri East, Mumbai 400069</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="reveal reveal-delay-2 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 gap-4">
+                        <div class="bg-white rounded-2xl p-4 shadow-card border border-gray-100">
+                            <div class="flex items-center gap-3">
+                                <div class="w-10 h-10 rounded-xl bg-blue-50 flex items-center justify-center flex-shrink-0">
+                                    <i data-lucide="phone" class="w-4.5 h-4.5 text-blue-500"></i>
+                                </div>
+                                <div>
+                                    <div class="text-xs text-gray-400 mb-0.5">Phone</div>
+                                    <a href="tel:09821550636" class="text-sm font-semibold text-gray-900 hover:text-brand transition-colors">098215 50636</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="bg-white rounded-2xl p-4 shadow-card border border-gray-100">
+                            <div class="flex items-center gap-3">
+                                <div class="w-10 h-10 rounded-xl bg-green-50 flex items-center justify-center flex-shrink-0">
+                                    <svg class="w-4.5 h-4.5 text-green-500" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                                </div>
+                                <div>
+                                    <div class="text-xs text-gray-400 mb-0.5">WhatsApp</div>
+                                    <a href="https://wa.me/919920696989" target="_blank" class="text-sm font-semibold text-gray-900 hover:text-green-600 transition-colors">+91 99206 96989</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="bg-white rounded-2xl p-4 shadow-card border border-gray-100">
+                            <div class="flex items-center gap-3">
+                                <div class="w-10 h-10 rounded-xl bg-amber-50 flex items-center justify-center flex-shrink-0">
+                                    <i data-lucide="mail" class="w-4.5 h-4.5 text-amber-500"></i>
+                                </div>
+                                <div>
+                                    <div class="text-xs text-gray-400 mb-0.5">Email</div>
+                                    <a href="mailto:amrutatutorials@gmail.com" class="text-sm font-semibold text-gray-900 hover:text-brand transition-colors break-all">amrutatutorials@gmail.com</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="bg-white rounded-2xl p-4 shadow-card border border-gray-100">
+                            <div class="flex items-center gap-3">
+                                <div class="w-10 h-10 rounded-xl bg-purple-50 flex items-center justify-center flex-shrink-0">
+                                    <i data-lucide="clock" class="w-4.5 h-4.5 text-purple-500"></i>
+                                </div>
+                                <div>
+                                    <div class="text-xs text-gray-400 mb-0.5">Hours</div>
+                                    <span class="text-sm font-semibold text-gray-900">Opens 2:30 PM</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Inquiry Form -->
+                <div class="lg:col-span-3">
+                    <div class="reveal bg-white rounded-3xl p-7 md:p-10 shadow-card border border-gray-100">
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Send an Inquiry</h3>
+                        <p class="text-sm text-gray-500 mb-7">Fill in the details below and we'll get back to you within 24 hours.</p>
+                        
+                        <form id="inquiryForm" class="space-y-5">
+                            <div class="grid sm:grid-cols-2 gap-5">
+                                <div>
+                                    <label class="block text-xs font-semibold text-gray-700 mb-1.5 uppercase tracking-wider">Student Name *</label>
+                                    <input type="text" required placeholder="Enter student name" class="w-full px-4 py-3 rounded-xl border border-gray-200 text-sm text-gray-900 placeholder-gray-400 transition-all">
+                                </div>
+                                <div>
+                                    <label class="block text-xs font-semibold text-gray-700 mb-1.5 uppercase tracking-wider">Parent Name *</label>
+                                    <input type="text" required placeholder="Enter parent name" class="w-full px-4 py-3 rounded-xl border border-gray-200 text-sm text-gray-900 placeholder-gray-400 transition-all">
+                                </div>
+                            </div>
+
+                            <div class="grid sm:grid-cols-2 gap-5">
+                                <div>
+                                    <label class="block text-xs font-semibold text-gray-700 mb-1.5 uppercase tracking-wider">Phone Number *</label>
+                                    <input type="tel" required placeholder="+91 XXXXX XXXXX" class="w-full px-4 py-3 rounded-xl border border-gray-200 text-sm text-gray-900 placeholder-gray-400 transition-all">
+                                </div>
+                                <div>
+                                    <label class="block text-xs font-semibold text-gray-700 mb-1.5 uppercase tracking-wider">Email</label>
+                                    <input type="email" placeholder="your@email.com" class="w-full px-4 py-3 rounded-xl border border-gray-200 text-sm text-gray-900 placeholder-gray-400 transition-all">
+                                </div>
+                            </div>
+
+                            <div class="grid sm:grid-cols-2 gap-5">
+                                <div>
+                                    <label class="block text-xs font-semibold text-gray-700 mb-1.5 uppercase tracking-wider">Grade *</label>
+                                    <select required class="w-full px-4 py-3 rounded-xl border border-gray-200 text-sm text-gray-900 bg-white transition-all">
+                                        <option value="" disabled selected>Select grade</option>
+                                        <option>8th Standard</option>
+                                        <option>9th Standard</option>
+                                        <option>10th Standard</option>
+                                        <option>11th Standard (HSC)</option>
+                                        <option>12th Standard (HSC)</option>
+                                        <option>Other</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <label class="block text-xs font-semibold text-gray-700 mb-1.5 uppercase tracking-wider">Course Interest *</label>
+                                    <select required class="w-full px-4 py-3 rounded-xl border border-gray-200 text-sm text-gray-900 bg-white transition-all">
+                                        <option value="" disabled selected>Select course</option>
+                                        <option>Science (Physics, Chemistry, Biology)</option>
+                                        <option>Mathematics</option>
+                                        <option>German Language</option>
+                                        <option>Sanskrit</option>
+                                        <option>Multiple Subjects</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div>
+                                <label class="block text-xs font-semibold text-gray-700 mb-1.5 uppercase tracking-wider">Message</label>
+                                <textarea rows="3" placeholder="Any specific requirements or questions..." class="w-full px-4 py-3 rounded-xl border border-gray-200 text-sm text-gray-900 placeholder-gray-400 transition-all resize-none"></textarea>
+                            </div>
+
+                            <div class="flex flex-col sm:flex-row gap-3 pt-2">
+                                <button type="submit" class="btn-brand text-white font-semibold px-8 py-3.5 rounded-xl inline-flex items-center justify-center gap-2 text-sm shadow-brand flex-1">
+                                    <i data-lucide="send" class="w-4 h-4"></i>
+                                    Submit Inquiry
+                                </button>
+                                <a href="https://wa.me/919920696989?text=Hi!%20I'd%20like%20to%20inquire%20about%20coaching%20classes." target="_blank" class="flex items-center justify-center gap-2 text-green-600 font-semibold px-6 py-3.5 rounded-xl bg-green-50 hover:bg-green-100 transition-colors text-sm border border-green-100">
+                                    <svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                                    Or WhatsApp Us
+                                </a>
+                            </div>
+                        </form>
+
+                        <!-- Success Message (hidden by default) -->
+                        <div id="formSuccess" class="hidden text-center py-10">
+                            <div class="w-16 h-16 rounded-full bg-green-50 flex items-center justify-center mx-auto mb-4">
+                                <i data-lucide="check-circle-2" class="w-8 h-8 text-green-500"></i>
+                            </div>
+                            <h4 class="text-lg font-bold text-gray-900 mb-2">Inquiry Submitted!</h4>
+                            <p class="text-sm text-gray-500">Thank you! We'll get back to you within 24 hours.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="bg-gray-900 text-white pt-16 pb-8 relative overflow-hidden">
+        <!-- Subtle red gradient -->
+        <div class="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-brand via-red-400 to-brand"></div>
+        <div class="absolute top-0 right-0 w-96 h-96 bg-brand/5 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2"></div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+            <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-10 mb-12">
+                <!-- Brand Column -->
+                <div class="sm:col-span-2 lg:col-span-1">
+                    <a href="#" class="flex items-center gap-2.5 mb-5">
+                        <div class="w-10 h-10 rounded-full bg-brand flex items-center justify-center shadow-brand">
+                            <span class="text-white font-bold text-sm">AC</span>
+                            <div class="absolute inset-0 rounded-full border-2 border-white/20"></div>
+                        </div>
+                        <div class="flex flex-col">
+                            <span class="font-bold text-white text-sm leading-tight">Amruta's Tutorials</span>
+                            <span class="text-[10px] text-gray-500 tracking-wide">Andheri East, Mumbai</span>
+                        </div>
+                    </a>
+                    <p class="text-sm text-gray-400 leading-relaxed mb-5 max-w-xs">
+                        Expert coaching for Science, Mathematics, German, and Sanskrit. Building confident learners since day one.
+                    </p>
+                    <!-- Social Icons -->
+                    <div class="flex items-center gap-3">
+                        <a href="https://instagram.com/amrutasclasses" target="_blank" class="w-9 h-9 rounded-xl bg-white/5 hover:bg-brand flex items-center justify-center transition-all duration-300 border border-white/5 hover:border-brand" aria-label="Instagram">
+                            <i data-lucide="instagram" class="w-4 h-4 text-gray-400 hover:text-white"></i>
+                        </a>
+                        <a href="https://facebook.com/Amrutastutorials" target="_blank" class="w-9 h-9 rounded-xl bg-white/5 hover:bg-brand flex items-center justify-center transition-all duration-300 border border-white/5 hover:border-brand" aria-label="Facebook">
+                            <i data-lucide="facebook" class="w-4 h-4 text-gray-400 hover:text-white"></i>
+                        </a>
+                        <a href="https://wa.me/919920696989" target="_blank" class="w-9 h-9 rounded-xl bg-white/5 hover:bg-green-500 flex items-center justify-center transition-all duration-300 border border-white/5 hover:border-green-500" aria-label="WhatsApp">
+                            <svg class="w-4 h-4 text-gray-400" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h4 class="text-sm font-semibold text-white mb-5 uppercase tracking-wider">Quick Links</h4>
+                    <ul class="space-y-3">
+                        <li><a href="#about" class="text-sm text-gray-400 hover:text-white transition-colors">About Us</a></li>
+                        <li><a href="#courses" class="text-sm text-gray-400 hover:text-white transition-colors">Courses</a></li>
+                        <li><a href="#why-us" class="text-sm text-gray-400 hover:text-white transition-colors">Why Choose Us</a></li>
+                        <li><a href="#testimonials" class="text-sm text-gray-400 hover:text-white transition-colors">Testimonials</a></li>
+                        <li><a href="#contact" class="text-sm text-gray-400 hover:text-white transition-colors">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Courses -->
+                <div>
+                    <h4 class="text-sm font-semibold text-white mb-5 uppercase tracking-wider">Courses</h4>
+                    <ul class="space-y-3">
+                        <li><a href="#courses" class="text-sm text-gray-400 hover:text-white transition-colors">Science (8th–10th)</a></li>
+                        <li><a href="#courses" class="text-sm text-gray-400 hover:text-white transition-colors">Mathematics (8th–10th)</a></li>
+                        <li><a href="#courses" class="text-sm text-gray-400 hover:text-white transition-colors">German (A1–C1)</a></li>
+                        <li><a href="#courses" class="text-sm text-gray-400 hover:text-white transition-colors">Sanskrit</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Summary -->
+                <div>
+                    <h4 class="text-sm font-semibold text-white mb-5 uppercase tracking-wider">Contact</h4>
+                    <ul class="space-y-3">
+                        <li class="flex items-start gap-2.5 text-sm text-gray-400">
+                            <i data-lucide="map-pin" class="w-4 h-4 text-brand mt-0.5 flex-shrink-0"></i>
+                            Andheri East, Mumbai 400069
+                        </li>
+                        <li>
+                            <a href="tel:09821550636" class="flex items-center gap-2.5 text-sm text-gray-400 hover:text-white transition-colors">
+                                <i data-lucide="phone" class="w-4 h-4 text-brand flex-shrink-0"></i>
+                                098215 50636
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto:amrutatutorials@gmail.com" class="flex items-center gap-2.5 text-sm text-gray-400 hover:text-white transition-colors">
+                                <i data-lucide="mail" class="w-4 h-4 text-brand flex-shrink-0"></i>
+                                amrutatutorials@gmail.com
+                            </a>
+                        </li>
+                        <li class="flex items-center gap-2.5 text-sm text-gray-400">
+                            <i data-lucide="clock" class="w-4 h-4 text-brand flex-shrink-0"></i>
+                            Opens 2:30 PM
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Bottom Bar -->
+            <div class="pt-8 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4">
+                <p class="text-xs text-gray-500">© 2025 Amruta's Tutorials. All rights reserved.</p>
+                <p class="text-xs text-gray-600">Andheri East, Mumbai, Maharashtra, India</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ==================== MOBILE STICKY CTA ==================== -->
+    <div id="mobileCTA" class="fixed bottom-0 left-0 right-0 z-40 md:hidden glass border-t border-gray-200/50 px-4 py-3 flex gap-3 transition-transform duration-300 translate-y-full">
+        <a href="#contact" class="btn-brand flex-1 text-white font-semibold py-3 rounded-xl inline-flex items-center justify-center gap-2 text-sm shadow-brand">
+            <i data-lucide="graduation-cap" class="w-4 h-4"></i>
+            Enroll Now
+        </a>
+        <a href="https://wa.me/919920696989" target="_blank" class="w-12 rounded-xl bg-green-500 hover:bg-green-600 flex items-center justify-center transition-colors shadow-lg flex-shrink-0">
+            <svg class="w-5 h-5 text-white" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        </a>
+    </div>
+
+    <!-- ==================== WHATSAPP FAB (Desktop) ==================== -->
+    <a href="https://wa.me/919920696989?text=Hi%20Amruta's%20Tutorials!%20I'm%20interested%20in%20coaching%20classes." target="_blank" 
+       class="whatsapp-fab fixed bottom-6 right-6 z-40 hidden md:flex w-14 h-14 rounded-full bg-green-500 hover:bg-green-600 items-center justify-center shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-110"
+       aria-label="Chat on WhatsApp">
+        <svg class="w-7 h-7 text-white" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+    </a>
+
+    <!-- ==================== JAVASCRIPT ==================== -->
+    <script>
+        // Initialize Lucide Icons
+        lucide.createIcons();
+
+        // ===== NAVBAR SCROLL EFFECT =====
+        const navbar = document.getElementById('navbar');
+        let lastScroll = 0;
+        
+        window.addEventListener('scroll', () => {
+            const currentScroll = window.scrollY;
+            
+            if (currentScroll > 50) {
+                navbar.classList.add('glass', 'shadow-nav', 'border-b', 'border-gray-200/50');
+            } else {
+                navbar.classList.remove('glass', 'shadow-nav', 'border-b', 'border-gray-200/50');
+            }
+            
+            lastScroll = currentScroll;
+        });
+
+        // ===== MOBILE MENU =====
+        const menuBtn = document.getElementById('menuBtn');
+        const closeMenuBtn = document.getElementById('closeMenu');
+        const mobileMenu = document.getElementById('mobileMenu');
+        const menuOverlay = document.getElementById('menuOverlay');
+        const mobileNavLinks = document.querySelectorAll('.mobile-nav-link');
+
+        function openMenu() {
+            mobileMenu.classList.add('open');
+            menuOverlay.classList.remove('hidden');
+            setTimeout(() => menuOverlay.style.opacity = '1', 10);
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeMenu() {
+            mobileMenu.classList.remove('open');
+            menuOverlay.style.opacity = '0';
+            setTimeout(() => {
+                menuOverlay.classList.add('hidden');
+                document.body.style.overflow = '';
+            }, 300);
+        }
+
+        menuBtn.addEventListener('click', openMenu);
+        closeMenuBtn.addEventListener('click', closeMenu);
+        menuOverlay.addEventListener('click', closeMenu);
+        mobileNavLinks.forEach(link => link.addEventListener('click', closeMenu));
+
+        // ===== MOBILE STICKY CTA =====
+        const mobileCTA = document.getElementById('mobileCTA');
+        const heroSection = document.getElementById('hero');
+        
+        const mobileCTAObservor = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    mobileCTA.classList.add('translate-y-full');
+                } else {
+                    mobileCTA.classList.remove('translate-y-full');
+                }
+            });
+        }, { threshold: 0.3 });
+
+        mobileCTAObservor.observe(heroSection);
+
+        // ===== SCROLL REVEAL ANIMATIONS =====
+        const revealElements = document.querySelectorAll('.reveal');
+        
+        const revealObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('active');
+                }
+            });
+        }, { 
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        });
+
+        revealElements.forEach(el => revealObserver.observe(el));
+
+        // ===== ANIMATED COUNTERS =====
+        const counters = document.querySelectorAll('.counter-value[data-target]');
+        let countersAnimated = false;
+
+        const counterObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting && !countersAnimated) {
+                    countersAnimated = true;
+                    counters.forEach(counter => {
+                        const target = parseInt(counter.getAttribute('data-target'));
+                        const suffix = counter.getAttribute('data-suffix') || '';
+                        const duration = 1500;
+                        const start = performance.now();
+
+                        function updateCounter(currentTime) {
+                            const elapsed = currentTime - start;
+                            const progress = Math.min(elapsed / duration, 1);
+                            
+                            // Ease out cubic
+                            const eased = 1 - Math.pow(1 - progress, 3);
+                            const current = Math.round(eased * target);
+                            
+                            counter.textContent = current + suffix;
+
+                            if (progress < 1) {
+                                requestAnimationFrame(updateCounter);
+                            }
+                        }
+
+                        requestAnimationFrame(updateCounter);
+                    });
+                }
+            });
+        }, { threshold: 0.5 });
+
+        counters.forEach(counter => counterObserver.observe(counter));
+
+        // ===== FORM SUBMISSION =====
+        const inquiryForm = document.getElementById('inquiryForm');
+        const formSuccess = document.getElementById('formSuccess');
+
+        inquiryForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Hide form, show success
+            inquiryForm.style.display = 'none';
+            formSuccess.classList.remove('hidden');
+            
+            // Re-init lucide for the success icon
+            lucide.createIcons();
+
+            // Reset after 4 seconds
+            setTimeout(() => {
+                inquiryForm.style.display = 'block';
+                formSuccess.classList.add('hidden');
+                inquiryForm.reset();
+            }, 4000);
+        });
+
+        // ===== SMOOTH SCROLL FOR ANCHOR LINKS =====
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                const href = this.getAttribute('href');
+                if (href === '#') return;
+                
+                e.preventDefault();
+                const target = document.querySelector(href);
+                if (target) {
+                    const offset = 70;
+                    const targetPosition = target.getBoundingClientRect().top + window.scrollY - offset;
+                    window.scrollTo({
+                        top: targetPosition,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
